@@ -1,0 +1,25 @@
+header{
+    font-size: 32px;
+}
+.byline{
+    font-size: 21.333px;
+}
+
+header, .byline{
+    text-align: center;
+}
+body{
+    font-family: 'Lexend', sans-serif;
+}
+
+h1, h2{
+    font-size: 16px;
+}
+
+span{
+    margin: -7px -2px;
+}
+
+h1{
+    border-bottom: 3px solid black;
+}

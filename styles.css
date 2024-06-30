@@ -1,0 +1,32 @@
+article {
+   border-style: solid;
+   display: inline-block;
+   vertical-align: top;
+   padding: 25px;
+   margin: 20px 1%;
+}
+
+body{
+   font-family: Arial, Helvetica, sans-serif; 
+}
+
+.box-header{
+   text-align: center;
+}
+
+.box{
+   max-width: 500px;
+   min-height: 600px;
+   border-radius: 10px;
+}
+
+.bulletpoints{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.page-header{
+   text-align: center;
+}
