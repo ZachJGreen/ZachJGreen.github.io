@@ -1,9 +1,13 @@
 article {
-   border-style: solid;
    display: inline-block;
    vertical-align: top;
    padding: 25px;
    margin: 20px 1%;
+}
+
+.border {
+   border-style: solid;
+   border-radius: 10px;
 }
 
 body{
@@ -17,7 +21,6 @@ body{
 .box{
    max-width: 500px;
    min-height: 600px;
-   border-radius: 10px;
 }
 
 .bulletpoints{
@@ -30,3 +33,38 @@ body{
 .page-header{
    text-align: center;
 }
+
+.photo{
+   display: flex;
+   justify-content: center;
+}
+
+.portrait{
+   width: 15%;
+   height: auto;
+}
+
+ul.navbar{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+ul.navbar li{
+   display: inline;
+   float: left;
+   padding: 10px;
+}
+ul.navbar li a{
+   display: block;
+   color: black;
+   text-align: center;
+   text-decoration: none;
+}
+
+ul.navbar li a.youAreHere{
+   color: white;
+   background-color: blue;
+}
+
