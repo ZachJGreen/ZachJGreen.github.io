@@ -68,3 +68,8 @@ ul.navbar li a.youAreHere{
    background-color: blue;
 }
 
+.fullbox{
+   display: flex;
+   width: 70%;
+   height: 1000px;
+}
