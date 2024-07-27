@@ -73,3 +73,7 @@ ul.navbar li a.youAreHere{
    width: 70%;
    height: 1000px;
 }
+
+.socials {
+   max-width: 20px;
+}
